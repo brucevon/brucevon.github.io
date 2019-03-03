@@ -1,0 +1,27 @@
+title: brucevon
+email: brucevon@aliyun.com
+description: Be water my friend
+baseurl: ""
+url: "https://www.brucevon.com"
+
+# Setup
+tagline: A rolling stone gathers no moss.
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+plugins:
+  - jekyll-feed
+paginate: 5
+paginate_path: "page:num"
+  
+# Comment: gitalk
+comment:
+  enable: true
+  clientID: 3a3fb9fb5b38081f8440
+  clientSecret: 04b66169ea7418de41bb8c712d21d84375ee56d6
+  repo: brucevon.github.io
+  owner: brucevon
+  admin: brucevon
+  distractionFreeMode: true
